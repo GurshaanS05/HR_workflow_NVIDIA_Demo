@@ -1,5 +1,4 @@
 "use client"
-
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from "react"
 import type { ActivityItem, Status, Templates, Transfer } from "./types"
 import { seedTransfers } from "./seed"
